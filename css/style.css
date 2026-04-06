@@ -1,0 +1,145 @@
+body{
+    background:#f2f4f8;
+    font-family:Segoe UI, sans-serif;
+    transition:0.3s;
+}
+
+/* Sidebar */
+.sidebar{
+    width:150px;
+    height:90vh;
+    background:#5b3f8c;
+    position:fixed;
+    padding:25px 20px;
+    color:white;
+    margin: 10px;
+    border-radius:0 20px 20px 0;
+    transition:0.3s;
+}
+
+.sidebar.collapsed{
+    width:80px;
+}
+
+.logo{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:40px;
+}
+
+.sidebar a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#ddd;
+    text-decoration:none;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:10px;
+    font-size:10px;
+    transition:0.3s;
+}
+
+.sidebar.collapsed a span{
+    display:none;
+}
+
+.sidebar a:hover{
+    background:#ff5e78;
+    color:white;
+}
+
+.toggle-btn{
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+    cursor:pointer;
+    font-size:18px;
+    text-align: center;
+}
+
+/* Main */
+.main{
+    margin-left:170px;
+    padding:20px 30px;
+    transition:0.3s;
+}
+
+.main.full{
+    margin-left:100px;
+}
+
+/* Topbar */
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.search-box{
+    width:350px;
+    background:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    font-size:10px;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.profile img{
+    width:40px;
+    border-radius:50%;
+}
+
+/* Cards */
+.card-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.purple-card{
+    background:#5b3f8c;
+    color:white;
+    height:140px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.small-card{
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.circle{
+    width:50px;
+    height:50px;
+    background:#c8efd8;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.chart-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.title{
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:10px;
+}
