@@ -1,8 +1,4 @@
 
-
-// ================== CHART DATA FILE ==================
-// Create new file: chart_data.php
-
 <?php
 include 'db.php';
 $res=$conn->query("SELECT name,salary FROM employees");

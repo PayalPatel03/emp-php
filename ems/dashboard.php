@@ -1,6 +1,4 @@
-// ================== MODERN ADMIN DASHBOARD (BOOTSTRAP UI) ==================
 
-// Replace your dashboard.php with this advanced UI
 
 <?php session_start(); include 'db.php'; ?>
 <!DOCTYPE html>
